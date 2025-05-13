@@ -1,0 +1,7 @@
+#hero-carrossel {
+  transition: opacity 0.3s ease, background-image 0.3s ease;
+}
+
+#hero-carrossel.opacity-0 {
+  opacity: 0;
+}
