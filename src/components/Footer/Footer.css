@@ -1,0 +1,38 @@
+#linha2{
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    #rodaPe{
+        padding: 0;
+    }
+   
+    #outros {
+    flex-direction: column-reverse;
+    align-items: center; 
+    justify-content: center;
+    
+}
+    #lista{
+        flex-direction: column;
+        
+    }
+
+    #imagens{
+        align-items: center;
+    }
+
+    ul{
+        align-items: center;
+    }
+
+    #linha2{
+        display:block;
+    }
+
+    #span{
+        gap: 80px;
+    }
+
+}

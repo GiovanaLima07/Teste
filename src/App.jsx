@@ -14,10 +14,7 @@ function App() {
       
     <Header />
     <Hero />
-    <Boot />
-    <QuebraPagina />
-    <Carrossel />
-    <QuebraPagina/>
+    
     <Footer />
       
     </>

@@ -1,0 +1,27 @@
+#menuIcon{
+    display:none;
+}
+
+@media (max-width: 768px) {
+  
+    #menuIcon{
+        display: block;
+        color: #000C4C;
+        background-color: orange;
+        padding: 5px;
+        border-radius: 999px;
+    }
+
+    #nav {
+        align-items: center;
+        justify-content: start;
+        gap: 5%;
+    }
+
+
+    
+
+}
+
+
+    
