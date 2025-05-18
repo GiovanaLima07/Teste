@@ -1,0 +1,63 @@
+#boot h2{
+    font-size: 2rem;
+}
+
+@media(max-width: 1282px){
+    #quadro h2{
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 1090px){
+    #quadro h2{
+        font-size: 1.2rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    #boot{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    font-size: 1.55rem;
+    height: auto;
+    min-height: 100vh;
+    
+}
+    #boot-titulo{
+        width: 80%;
+        height: 100%;
+        border-top-right-radius: var(--radius-3xl);
+        border-bottom-left-radius: 0;
+        justify-content: center;
+        align-items: center; 
+
+    }
+
+    #boot-texto{
+        width: 80%;
+        height: 70%;
+        border-bottom-left-radius: var(--radius-3xl);
+        border-top-right-radius: 0;
+        
+        
+    }
+    
+    #quadro{
+        background-color: transparent;
+        width: 50%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0; 
+    }
+
+    #quadro h2{
+        position: absolute;
+        
+    }
+    
+
+}

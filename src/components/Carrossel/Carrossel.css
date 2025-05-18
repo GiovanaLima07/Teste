@@ -1,0 +1,40 @@
+@media (max-width: 1130px){
+    #textos-carrossel h2{
+        font-size: 3.2rem;
+    }
+
+    #textos-carrossel p{
+        font-size: 1.5rem;
+    }
+
+    #textos-carrossel button{
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #carrossel{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #carrossel h2{
+        font-size: 2rem;
+    }
+
+    #textos-carrossel{
+        width: 80%;
+        height: 40%;
+        gap: 10%;
+    }
+
+    #textos-carrossel button{
+        padding: 5%;
+    }
+
+    #img-carrossel{
+        width: 80%;
+    }
+
+}
